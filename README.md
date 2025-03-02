@@ -26,8 +26,8 @@ This app is designed with clean architecture and follows the separation of conce
 
 1. Clone the Repository
    Run the following command to clone and open the project:-
-   (i) git clone https://github.com/MSNegi123/flutter_news_app.git
-   (ii) cd news-search-app
+   1) git clone https://github.com/MSNegi123/flutter_news_app.git
+   2) cd news-search-app
 2. Install Dependencies
    Run the following command to install the required packages:-
    flutter pub get
@@ -48,7 +48,6 @@ This app follows clean architecture, and Bloc was chosen for:
 
 **Screenshots**
 
-(Sample screenshots here)
 ![news_list_page.png](screenshots%2Fnews_list_page.png)
 ![news_detail_page.png](screenshots%2Fnews_detail_page.png)
 ![recent_search.png](screenshots%2Frecent_search.png)
