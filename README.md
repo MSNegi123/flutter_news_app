@@ -1,12 +1,12 @@
-# flutter_news_app
+# Flutter News App
 
 **Overview**
 
 The News Search App is a Flutter application that allows users to:
--> Explore the latest news from various sources.
--> Search for news articles on specific topics.
--> View detailed news articles with smooth navigation.
--> Utilize recent searches for quick access.
+1. Explore the latest news from various sources.
+2. Search for news articles on specific topics.
+3. View detailed news articles with smooth navigation.
+4. Utilize recent searches for quick access.
 
 This app is designed with clean architecture and follows the separation of concerns principle using Bloc for state management.
 
@@ -26,7 +26,7 @@ This app is designed with clean architecture and follows the separation of conce
 
 1. Clone the Repository
    Run the following command to clone and open the project:-
-   (i) git clone https://github.com/your-repository/news-search-app.git
+   (i) git clone https://github.com/MSNegi123/flutter_news_app.git
    (ii) cd news-search-app
 2. Install Dependencies
    Run the following command to install the required packages:-
