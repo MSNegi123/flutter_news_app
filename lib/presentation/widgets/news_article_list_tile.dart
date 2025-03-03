@@ -3,6 +3,7 @@ import "../../utils/main_imports.dart";
 import 'package:intl/intl.dart';
 
 import '../../data/model/news_article_response_model.dart';
+import '../../utils/utils.dart';
 import '../screens/news_article_detail_screen.dart';
 
 class NewsArticleListTile extends StatelessWidget {
@@ -73,7 +74,7 @@ class NewsArticleListTile extends StatelessWidget {
                   ),
                   4.bw(),
                   Text(
-                    DateFormat("MMM d, yyyy").format(newsArticleData.publishedAt),
+                    formattedDateString(date: newsArticleData.publishedAt),
                     style: TextStyle(color: AppColors.strongGrey, fontSize: 12.sp, fontWeight: FontWeight.w500),
                   ),
                 ],

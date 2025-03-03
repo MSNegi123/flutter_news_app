@@ -24,7 +24,8 @@ This app is designed with clean architecture and follows the separation of conce
 
 **Setup Instructions**
 
-1. Clone the Repository
+1. Go to the NewsOrg official website ("https://newsapi.org") and get an API-KEY and save it to be used in .env file. 
+2. Clone the Repository
    Run the following command to clone and open the project:-
    1) git clone https://github.com/MSNegi123/flutter_news_app.git
    2) cd news-search-app
@@ -32,7 +33,7 @@ This app is designed with clean architecture and follows the separation of conce
    `Run the following command to install the required packages:-`
    `flutter pub get`
 3. Download .env file from the attachments and place it at the root location of the flutter project
-   `Replace API-KEY in the .env file with your <API-KEY> if required or expired.`
+   `Replace API-KEY in the .env file with the <API-KEY> that you generated from NewsOrg website.`
 4. Run the Application
    `To run the app on an emulator or a connected device, use:-`
    `flutter run`
